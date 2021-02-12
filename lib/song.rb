@@ -51,7 +51,7 @@ def self.new_from_filename(filename)
   song_file[1] = song_file[1].chomp(".mp3")
   song = self.new
   song.name = song_file[1]
-  song.artist = song_file[0]
+  song.artist_name = song_file[0]
   song
 end
 

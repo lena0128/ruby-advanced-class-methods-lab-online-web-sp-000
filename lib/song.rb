@@ -55,7 +55,7 @@ def self.new_from_filename(filename)
   song
 end
 
-def self.create_from_filename(file_name)
+def self.create_from_filename(filename)
   song_file = self.new_from_filename
   song = self.create
   song.name = song_file.name
